@@ -1,0 +1,206 @@
+.conteiner-jogos {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subdiv-jogos {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-jogos {
+    color: #FFFFFF;
+    max-width: fit-content;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.lista-jogos {
+    color: #FFFFFF;
+    display: grid;
+    gap: 20px;
+}
+
+.titulo-jogos:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #2EFF4F;
+}
+
+.conteiner-planos {
+    background-color: #111111;
+    padding-bottom: 120px;
+}
+
+.subdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.titulo-planos {
+    color: #2EFF4F;
+    max-width: fit-content;
+    font-size: 40px;
+    margin: 35px 0;
+}
+
+.titulo-planos:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #2EFF4F;
+}
+
+.cartao-um-plano {
+    display: grid;
+    justify-content: center;
+    background-color: #222222;
+    padding: 80px 120px;
+    border-radius: 5px;
+}    
+
+.cartao-dois-planos {
+    display: grid;
+    background-color: #333333;
+    justify-content: center;
+    padding: 70px 150px;
+    margin-top: 85px;
+    margin-left: 80px;
+    border-radius: 5px;
+}    
+
+.subtitulo-planos-um {
+    color: #2EFF4F;
+    margin-top: -50px;
+    text-align: center;
+}   
+
+.subtitulo-planos-dois {
+    color: #2EFF4F;
+    text-align: center;
+    margin-bottom: 20px;
+}    
+
+.conteiner-computador {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000000;
+}    
+
+.conteiner-computador h3 {
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    align-self: center;
+    margin-right: 40px;
+}    
+
+p {
+    color: #9F9F9F;
+    margin-top: 20px;
+}  
+
+.lista-planos-um {
+    color: #FFFFFF;
+    display: grid;
+    gap: 20px;
+}
+
+.lista-planos-dois {
+    color: #FFFFFF;
+    display: grid;
+    gap: 20px;
+}
+
+.cartao-um-plano a {
+    justify-self: center;
+}
+
+.cartao-dois-planos a {
+    justify-self: center;
+}
+
+.lista-jogos li::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #2EFF4F;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: -10px;
+}
+
+.lista-jogos li {
+    position: relative;
+}
+
+.lista-planos-um li::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #2EFF4F;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: -10px;
+}
+
+.lista-planos-um li {
+    position: relative;
+}
+
+.lista-planos-dois li::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #2EFF4F;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: -10px;
+}
+
+.lista-planos-dois li {
+    position: relative;
+}
+  @media (max-width: 800px) {
+    .conteiner-jogos {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .subdiv {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 0;
+    }
+
+    .cartao-um-plano {
+        margin: 0;
+        
+    }
+
+    .cartao-dois-planos  {
+        margin: 0;
+    }
+
+    .conteiner-computador {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 600px) {
+  }
+
+  @media (max-width: 400px) {
+  }
